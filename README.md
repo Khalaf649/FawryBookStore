@@ -4,9 +4,10 @@ An extensible, object-oriented simulation of an online bookstore
 
 ---
 ## Screenshots
-![UML Diagram]([https://your-image-url.com/diagram.svg](https://github.com/Khalaf649/FawryBookStore/blob/main/1.jpg))
-![UML Diagram](https://github.com/Khalaf649/FawryBookStore/blob/main/2.jpg)
+![before](https://github.com/Khalaf649/FawryBookStore/blob/main/1.jpg)
+![after](https://github.com/Khalaf649/FawryBookStore/blob/main/2.jpg)
 
+These 2 images before and after removing the books outdated 20
 ---
 ## Features
 
