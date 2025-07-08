@@ -4,10 +4,18 @@ An extensible, object-oriented simulation of an online bookstore
 
 ---
 ## Screenshots
+These 2 images before and after removing the books outdated 20
 ![before](https://github.com/Khalaf649/FawryBookStore/blob/main/1.jpg)
 ![after](https://github.com/Khalaf649/FawryBookStore/blob/main/2.jpg)
 
-These 2 images before and after removing the books outdated 20
+Boundaries Conditions for insufficient stock, purchasing Demo books, purchasing more than 1 copy of Digital book
+![after](https://github.com/Khalaf649/FawryBookStore/blob/main/3.jpg)
+![after](https://github.com/Khalaf649/FawryBookStore/blob/main/4.jpg)
+![after](https://github.com/Khalaf649/FawryBookStore/blob/main/5.jpg)
+
+Before and after removing the books older than 10 years old and manually removing book efffective Java by it's ISBN
+![after](https://github.com/Khalaf649/FawryBookStore/blob/main/6.jpg)
+![after](https://github.com/Khalaf649/FawryBookStore/blob/main/7.jpg)
 
 ---
 ## Features
@@ -58,8 +66,12 @@ Handles:
 - Adding/removing books
 - Buying books (with stock checks and delivery delegation)
 
----
 
+---
+## UML Diagram 
+![UML](https://github.com/Khalaf649/FawryBookStore/blob/main/FawryTask_UML.svg)
+
+---
 ## Extensibility
 
  Following the *Open/Closed Principle*:
