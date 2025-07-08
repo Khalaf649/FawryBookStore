@@ -1,8 +1,8 @@
 package domain;
 
 public class DemoBook extends Book {
-    public DemoBook(String title, int publicationYear, double price, String author) {
-        super(title, publicationYear, price, author);
+    public DemoBook(String title, int publicationYear, String author) {
+        super(title, publicationYear, 0, author);
     }
 
     @Override public boolean isSellable() { return false; }
