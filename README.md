@@ -8,6 +8,7 @@ An extensible, object-oriented simulation of an online bookstore
 ![after](https://github.com/Khalaf649/FawryBookStore/blob/main/2.jpg)
 
 These 2 images before and after removing the books outdated 20
+
 ---
 ## Features
 
