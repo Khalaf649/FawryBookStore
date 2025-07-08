@@ -3,7 +3,9 @@
 An extensible, object-oriented simulation of an online bookstore 
 
 ---
+## Screenshots
 
+---
 ## Features
 
 - Supports three types of books:
