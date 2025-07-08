@@ -27,11 +27,5 @@ public class PaperBook extends Book implements Shippable {
 
 
 
-    public void updateStock(int stockChange) {
-        int newStock = this.stock + stockChange;
-        if (newStock < 0) {
-            throw new IllegalArgumentException("Resulting stock cannot be negative");
-        }
-        this.stock = newStock;
-    }
+
 }

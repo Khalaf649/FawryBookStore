@@ -57,4 +57,8 @@ public class Inventory {
         }
         return found;
     }
+    public List<Book> getAllBooks() {
+        return new ArrayList<>(books.values());
+    }
+
 }
