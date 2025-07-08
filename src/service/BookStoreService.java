@@ -22,6 +22,9 @@ public class BookStoreService {
         }
 
         Book book = inventory.getBook(isbn);
+        if (book instanceof DemoBook) {
+            throw new UnsupportedOperationException("Demo books cannot be purchased");
+        }
 
         if (book instanceof Shippable stockBook) {
             if (quantity <= 0) {
@@ -43,6 +46,9 @@ public class BookStoreService {
         double total = book.getPrice() * quantity;
 
         String contactInfo = (book instanceof Shippable) ? address : email;
+        if (contactInfo == null || contactInfo.isBlank()) {
+            throw new IllegalArgumentException("contactInfo must not be null or blank");
+        }
 
         boolean delivered = false;
         for (DeliveryService service : deliveryServices) {
@@ -63,5 +69,11 @@ public class BookStoreService {
 
     public void addBook(Book book) {
         inventory.addBook(book);
+    }
+    public List<Book> removeOutdatedBooks(int maxAgeInYears){
+        return inventory.removeOutdatedBooks(maxAgeInYears);
+    }
+    public List<Book> printAllBooks(){
+        return inventory.getAllBooks();
     }
 }
